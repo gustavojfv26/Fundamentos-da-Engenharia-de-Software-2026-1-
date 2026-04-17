@@ -1,0 +1,44 @@
+Realizei uma pesquisa básica no chat de algo que eu não sabia como funcionava, a dúvida em si era ver como adicionar uma imagem no file.
+
+Segue a pesquisa a seguir:
+
+🔹 1. Subir a imagem para o repositório
+Pelo site do GitHub:
+Entre no seu repositório
+Clique em “Add file” → “Upload files”
+Arraste a imagem ou selecione do seu computador
+Clique em “Commit changes”
+
+👉 A imagem vai aparecer como um arquivo normal (ex: imagem.png)
+
+🔹 2. Usar a imagem no seu HTML
+
+Depois de subir, você usa assim:
+
+<img src="imagem.png" alt="Descrição da imagem">
+🔹 3. Se a imagem estiver dentro de uma pasta
+
+Exemplo:
+
+/projeto
+  /img
+    foto.png
+  index.html
+
+Use:
+
+<img src="img/foto.png">
+🔹 4. Usar imagem no README.md (Markdown)
+![Descrição](imagem.png)
+
+Ou em pasta:
+
+![Descrição](img/foto.png)
+🔹 5. Usar link direto da imagem
+
+Você também pode clicar na imagem no GitHub e copiar o link:
+
+<img src="https://raw.githubusercontent.com/usuario/repositorio/main/img/foto.png">
+🔹 Dica importante ⚠️
+Evite espaços no nome (minha imagem.png) → use minha-imagem.png
+Respeite maiúsculas/minúsculas (Foto.png ≠ foto.png)
